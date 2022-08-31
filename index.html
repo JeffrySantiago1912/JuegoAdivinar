@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Numero Escondido</title>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+   <div class="container">
+
+       <h3>Estoy pensando en un número entre el 1 y 10</h3>
+       <h3>¿Puedes adivinarlo?</h3>
+
+       <input type="text" placeholder="Numero" id="guess"><br>
+       <button onclick="play()" id="my_btn">Adivinar</button>
+
+       <p id="message1">Intentos: 0</p>
+       <p id="message2">Los numeros que intestaste son: ninguno</p>
+       <p id="message3"></p>
+
+   </div>
+
+   <!--Script-->
+   <script src="script.js"></script>
+</body>
+</html>
