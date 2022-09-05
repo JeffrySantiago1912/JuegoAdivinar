@@ -18,7 +18,7 @@ function play(){
     let usuario_intento = document.getElementById("guess").value;
 
     if(usuario_intento < 1 || usuario_intento > 10){
-        alert("Favor de ingresar un numero entre el 1 y 10.");
+        alert("Favor de ingresar un numero entre el 1 y 10.");      
     }
 
     else{
@@ -29,6 +29,7 @@ function play(){
             msg1.textContent = "El numero secreto incorrecto";
             msg2.textContent = "Intentos realizados: " + " " + intentos;
             msg3.textContent = "Numeros que has intentado" + " " + numeros_intentados;
+            document.querySelector("#guess").value = "";
          
         }
        
